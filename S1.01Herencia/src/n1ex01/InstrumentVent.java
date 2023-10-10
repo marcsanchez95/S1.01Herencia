@@ -12,6 +12,9 @@ public class InstrumentVent extends Instrument {
 		System.out.println("Esta sonant un instrument de vent.");
 		
 	}
+	static{
+        System.out.println("S'ha carregat un bloc estatic de instrument de VENT al ser mencionat en el main.");
+  }
 
 	@Override
 	public String toString() {

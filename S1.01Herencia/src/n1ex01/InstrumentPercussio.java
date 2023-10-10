@@ -12,6 +12,9 @@ public class InstrumentPercussio extends Instrument {
 		System.out.println("Esta sonant un instrument de percussio.");
 		
 	}
+	static{
+        System.out.println("S'ha carregat un bloc estatic de instrument de PERCUSSIO al ser mencionat en el main.");
+  }
 
 	@Override
 	public String toString() {

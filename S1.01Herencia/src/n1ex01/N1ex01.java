@@ -6,7 +6,7 @@ public class N1ex01 {
 
 	public static void main(String[] args) {
 		ArrayList<Instrument> instruments = new ArrayList<Instrument>();
-
+		             
 		InstrumentCorda guitarra = new InstrumentCorda("Guitarra", 669.98f);
 		instruments.add(guitarra);
 		guitarra.tocar();
@@ -21,6 +21,9 @@ public class N1ex01 {
 
 		System.out.println(flauta);
 		System.out.println(instruments);
+		
+										
+		/*
 		InstrumentPercussio algunInstrument = null;
 
 		for (int i = 0; i < instruments.size(); i++) {
@@ -49,7 +52,7 @@ public class N1ex01 {
 			}
 
 		}
-		System.out.println(algunInstrument);
+		System.out.println(algunInstrument);*/
 	}
 
 }
