@@ -3,15 +3,10 @@ package n2ex01;
 public class N2ex01 {
 
 	public static void main(String[] args) {
-		Smarthphone iphone = new Smarthphone();
+		Smarthphone movil = new Smarthphone("Xiaomi", "note8pro");
 
-		iphone.alarma();
-		iphone.fotografiar();
-		iphone.trucar(669541558);
-
-		final int MEGAPIXELS = Camara.MEGAPIXELS;
-
-		System.out.println(MEGAPIXELS + " Megapixels");
+		movil.alarma();
+		movil.fotografiar();
+		movil.trucar(669541558);
 	}
-
 }

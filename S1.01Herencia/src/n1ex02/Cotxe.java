@@ -1,15 +1,10 @@
 package n1ex02;
 
 public class Cotxe {
-	public static final String MARCA = "Ferrari";;
-	private static String model;
-	private final int POTENCIA;
+	private static final String MARCA = "Ferrari";;
+	private static String model = "Huracan";
+	private final int POTENCIA = 500;
 
-	public Cotxe(int POTENCIA, String model) {
-		this.POTENCIA = POTENCIA;
-		Cotxe.model = model;
-
-	}
 
 	public static String getModel() {
 		return model;
@@ -27,7 +22,7 @@ public class Cotxe {
 		return POTENCIA;
 	}
 
-	public static void frenar() {
+	public static void frenar(Cotxe cotxe) {
 		System.out.println("El vehicle esta frenant.");
 
 	}
@@ -35,11 +30,6 @@ public class Cotxe {
 	public void accelerar() {
 		System.out.println("El vehicle esta accelerant.");
 
-	}
-
-	@Override
-	public String toString() {
-		return "Cotxe [POTENCIA=" + POTENCIA + "]";
 	}
 
 }
